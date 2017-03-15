@@ -13,6 +13,7 @@ set cursorline
 highlight CursorLine cterm=NONE ctermfg=NONE ctermbg=black
 set hlsearch
 set incsearch
+set noswapfile
 
 set laststatus=2
 let g:airline#extensions#tabline#enabled = 1
