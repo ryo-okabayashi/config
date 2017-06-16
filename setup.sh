@@ -9,7 +9,8 @@ git clone git://github.com/altercation/vim-colors-solarized.git
 git clone https://github.com/vim-airline/vim-airline
 git clone https://github.com/tpope/vim-fugitive.git
 git clone https://github.com/airblade/vim-gitgutter.git
-git clone https://github.com/scrooloose/nerdtree.git ~/.vim/bundle/nerdtree
+git clone https://github.com/scrooloose/nerdtree.git
+git clone https://github.com/Shougo/unite.vim
 
 mv ~/.vimrc ~/.vimrc.backup
 curl -LSso ~/.vimrc https://raw.githubusercontent.com/ryo-okabayashi/config/master/.vimrc
