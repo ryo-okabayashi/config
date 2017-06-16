@@ -14,12 +14,15 @@ highlight CursorLine cterm=NONE ctermfg=NONE ctermbg=black
 set hlsearch
 set incsearch
 set noswapfile
+"set expandtab
+"set softtabstop=4
 
 set laststatus=2
 let g:airline#extensions#tabline#enabled = 1
 "let g:airline_powerline_fonts = 1
 let g:airline_left_sep = ''
 let g:airline_right_sep = ''
+let NERDTreeShowHidden=1
 
 "nnoremap <c-n> gt
 "nnoremap <c-p> gT
