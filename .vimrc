@@ -23,5 +23,6 @@ let g:airline_right_sep = ''
 
 "nnoremap <c-n> gt
 "nnoremap <c-p> gT
-nnoremap <c-n> :bn <Enter>
-nnoremap <c-p> :bp <Enter>
+nnoremap <c-n> :bn <CR>
+nnoremap <c-p> :bp <CR>
+nnoremap c :bp\|bd #<CR>
