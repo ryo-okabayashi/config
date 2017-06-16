@@ -21,5 +21,7 @@ let g:airline#extensions#tabline#enabled = 1
 let g:airline_left_sep = ''
 let g:airline_right_sep = ''
 
-nnoremap <c-n> gt
-nnoremap <c-p> gT
+"nnoremap <c-n> gt
+"nnoremap <c-p> gT
+nnoremap <c-n> bn
+nnoremap <c-p> bp
