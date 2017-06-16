@@ -26,8 +26,4 @@ let NERDTreeShowHidden=1
 let g:NERDTreeDirArrowExpandable = '+'
 let g:NERDTreeDirArrowCollapsible = '-'
 
-"nnoremap <c-n> gt
-"nnoremap <c-p> gT
-nnoremap <c-n> :bn <CR>
-nnoremap <c-p> :bp <CR>
-nnoremap c :bp\|bd #<CR>
+nnoremap <c-n> :Unite buffer <CR>
