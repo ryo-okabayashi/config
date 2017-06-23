@@ -14,10 +14,12 @@ highlight CursorLine cterm=NONE ctermfg=NONE ctermbg=black
 set hlsearch
 set incsearch
 set noswapfile
+set undofile
+set undodir=~/.vim/undo
 "set expandtab
 "set softtabstop=4
-
 set laststatus=2
+
 let g:airline#extensions#tabline#enabled = 1
 "let g:airline_powerline_fonts = 1
 let g:airline_left_sep = ''
