@@ -27,6 +27,8 @@ let g:airline_right_sep = ''
 let NERDTreeShowHidden=1
 let g:NERDTreeDirArrowExpandable = '+'
 let g:NERDTreeDirArrowCollapsible = '-'
+let g:buffergator_viewport_split_policy = "B"
+let g:buffergator_autodismiss_on_select = 0
 
 nnoremap <c-n> :e . <CR>
 nnoremap <c-p> :Unite buffer <CR>
