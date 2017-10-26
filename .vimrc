@@ -16,6 +16,7 @@ set incsearch
 set noswapfile
 set undofile
 set undodir=~/.vim/undo
+set hidden
 "set expandtab
 "set softtabstop=4
 set laststatus=2
